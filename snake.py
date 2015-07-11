@@ -8,7 +8,7 @@ class Snake:
         self.body = deque()
         self.head_pos = None
         self.to_extend = None
-        self.extend_size = 25
+        self.extend_size = 10
         self.extend()
 
     def update(self, new_pos):
